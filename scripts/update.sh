@@ -1,0 +1,2 @@
+paru
+flatpak update
