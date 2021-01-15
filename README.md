@@ -1,4 +1,7 @@
-# Archscripts
-Scripts for software and configs to do after installing a Arch Based Linux Distro
+# ArcoBSPM Materia-Dark
 
-Dont forget to change xsettingsd and gtk file to get Flatpak working and GTK3 themes good.
+![image](https://github.com/nigelwarning/archdots/blob/main/readme/1.jpg)
+![image](https://github.com/nigelwarning/archdots/blob/main/readme/2.png)
+![image](https://github.com/nigelwarning/archdots/blob/main/readme/3.jpg)
+![image](https://github.com/nigelwarning/archdots/blob/main/readme/4.png)
+
