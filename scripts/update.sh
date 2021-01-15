@@ -1,2 +1,2 @@
-paru
+yay
 flatpak update
