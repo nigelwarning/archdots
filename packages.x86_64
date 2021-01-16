@@ -188,7 +188,7 @@ ttf-ms-fonts
 
 
 ###icons
-tela-icon-theme-git
+papirus-icon-theme
 sardi-icons
 surfn-icons-git
 
@@ -278,7 +278,7 @@ termite
 breeze-icons
 dolphin
 xcursor-breeze
-mousepad
+geany
 light
 nomacs
 
