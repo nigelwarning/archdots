@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=Mint Y Materia
-Inherits=Mint-Y-Dark,Surfn,breeze-dark,Adwaita,gnome,hicolor.
+Inherits=Tela-dark,Surfn,breeze-dark,Adwaita,gnome,hicolor.
 Comment=Icon theme built for Materia-Theme
 
 Directories=places/16,actions/16,places/16@2x,places/22,places/22@2x,places/24,places/24@2x,places/32,places/32@2x,places/48,places/48@2x,places/64,places/64@2x,places/96,places/96@2x,places/128,places/128@2x,actions/12,actions/22,actions/24,actions/32,actions/48,actions/64
@@ -8,36 +8,6 @@ Directories=places/16,actions/16,places/16@2x,places/22,places/22@2x,places/24,p
 [places/16]
 Size=16
 Context=Places
-Type=Fixed
-
-[actions/12]
-Size=12
-Context=Actions
-Type=Fixed
-
-[actions/22]
-Size=22
-Context=Actions
-Type=Fixed
-
-[actions/24]
-Size=24
-Context=Actions
-Type=Fixed
-
-[actions/32]
-Size=32
-Context=Actions
-Type=Fixed
-
-[actions/48]
-Size=48
-Context=Actions
-Type=Fixed
-
-[actions/64]
-Size=64
-Context=Actions
 Type=Fixed
 
 [places/16@2x]
