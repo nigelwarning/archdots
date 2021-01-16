@@ -35,8 +35,6 @@ ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
 ln -s ~/archdots/.local/kservices5 ~/.local/share/kserivces5
 
 
-
-sudo nano /etc/paru.conf
 sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
