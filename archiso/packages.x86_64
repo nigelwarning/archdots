@@ -191,6 +191,7 @@ ttf-ms-fonts
 tela-icon-theme-git
 sardi-icons
 surfn-icons-git
+breeze-icons
 
 
 ###themes
@@ -275,7 +276,6 @@ qt5ct
 gnome-keyring
 ffmpegthumbs
 termite
-breeze-icons
 dolphin
 xcursor-breeze
 geany
