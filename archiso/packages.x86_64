@@ -265,9 +265,7 @@ xfce4-notifyd
 xfce4-power-manager
 lxappearance
 xsettingsd
-xfce4-screenshooter
 lightdm
-scrot
 rofi
 dmenu
 nitrogen
