@@ -40,7 +40,7 @@ format-offset =
 
 [colors]
 ; Arc theme ============
-background = #31313A
+background = #242424
 foreground = #f3f4f5
 alert = #d08770
 volume-min = #a3be8c
