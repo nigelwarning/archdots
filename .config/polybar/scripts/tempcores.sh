@@ -9,7 +9,7 @@ tempCore=($rawData)
 
 # Define constants :
 degree="°C"
-temperaturesValues=(50 60 70 80 90 100)
+temperaturesValues=(55 60 70 80 90 100)
 temperaturesColors=("#6bff49" "#f4cb24" "#ff8819" "#ff3205" "#f40202" "#ef02db")
 temperaturesIcons=(     )
 

@@ -100,7 +100,7 @@ font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = bspwm xwindow 
-modules-center = date cpu2 memory2
+modules-center = date 
 modules-right = pavolume battery backlight-acpi temperature2 
 tray-detached = false
 tray-offset-x = 0
