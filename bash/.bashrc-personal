@@ -14,6 +14,7 @@ alias install='yay'
 alias mirrors='bash archdots/scripts/mirrors.sh'
 alias update='bash archdots/scripts/update.sh'
 alias updategit='bash archdots/scripts/updategit.sh'
+alias updatedocker='bash archdots/scripts/updatedocker.sh'
 
 PS1='[\u@\h \W]\$ '
 
