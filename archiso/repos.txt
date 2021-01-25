@@ -6,3 +6,4 @@ Server = http://chaotic.bangl.de/$repo/$arch
 
 [endeavouros]
 Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
+
