@@ -36,7 +36,6 @@ git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
-sudo curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/resources/drirc -o /etc/drirc
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
 
 
