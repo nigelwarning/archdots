@@ -32,7 +32,7 @@ ln -s ~/archdots/.config/xsettingsd ~/.config/xsettingsd
 ln -s ~/archdots/.config/Kvantum ~/.config/Kvantum
 ln -s ~/archdots/.config/qt5ct ~/.config/qt5ct
 ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
-ln -s ~/archdots/.local/kservices5 ~/.local/share/kserivces5
+ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
 
 sudo systemctl enable tlp

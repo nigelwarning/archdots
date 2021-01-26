@@ -10,13 +10,13 @@ super + space
 # Applications
 #################################################################
 
-# Chromium
+# Google Chrome
 super + b
-	chromium
+	google-chrome-stable
 
-# Chromium Incognito Browser
+# Google Chrome Incognito
 super + shift + b
-	chromium --incognito
+	google-chrome-stable --incognito
 
 # Dolphin
 super + shift + Return

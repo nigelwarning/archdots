@@ -169,7 +169,7 @@ xdg-user-dirs
 #########################################################################
 
 ###applications
-chromium
+google-chrome
 gparted
 vlc
 discord
