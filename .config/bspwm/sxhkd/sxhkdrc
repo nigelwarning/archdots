@@ -38,9 +38,9 @@ super + Escape
     xkill
 
 #Mousepad
-super + e
-    mousepad
-
+super + g
+    geany
+    
 #Discord
 super + d
     discord
