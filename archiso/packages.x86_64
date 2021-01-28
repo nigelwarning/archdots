@@ -42,8 +42,6 @@ linux
 linux-atm
 linux-firmware
 linux-headers
-linux-lts
-linux-lts-headers
 logrotate
 lsscsi
 lvm2
@@ -122,6 +120,8 @@ tlp
 powertop
 docker
 intel-undervolt
+linux-lts
+linux-lts-headers
 
 
 ###xorg
@@ -170,6 +170,8 @@ vlc
 discord
 teams
 libreoffice-still
+kdenlive
+obs-studio
 
 ###cursors
 
@@ -209,13 +211,9 @@ ark
 ###########################################################################
 #                           ARCOLINUX FOLDER
 ###########################################################################
-arcolinux-grub-theme-vimix-git
 arcolinux-keyring
 arcolinux-mirrorlist-git
-arcolinux-neofetch-git
 arcolinuxd-system-config-git
-arcolinux-wallpapers-git
-arcolinux-xfce-git
 
 
 ###########################################################################
