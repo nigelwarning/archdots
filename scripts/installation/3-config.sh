@@ -14,8 +14,13 @@ sudo chown -R nigel:nigel /opt/*
 sudo chown -R nigel:nigel nigel
 
 cd
+cd .config
+sudo rm -rf bspwm polybar
 
-ln -s ~/archdots/bash/.bashrc ~/.bashrc
+cd
+sudo rm -rf .face
+
+ln -s ~/archdots/bash/.bashrc-personal ~/.bashrc-personal
 ln -s ~/archdots/.face ~/.face
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 ln -s ~/archdots/.config/bspwm ~/.config/bspwm
@@ -47,7 +52,6 @@ git config --global user.name "nigelwarning"
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 flatpak --user override --filesystem=/home/$USER/.icons/:ro
 sudo curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/resources/drirc -o /etc/drirc
-
 
 
 
