@@ -15,7 +15,6 @@ crda
 darkhttpd
 ddrescue
 dhclient
-docker
 dialog
 diffutils
 dmraid
@@ -73,7 +72,6 @@ partclone
 parted
 partimage
 ppp
-intel-undervolt
 pptpclient
 reflector
 reiserfsprogs
@@ -99,12 +97,6 @@ xfsprogs
 xl2tpd
 appstream
 archiso
-downgrade
-grub-customizer
-inxi
-neofetch
-powertop
-tlp
 unrar
 unzip
 arandr
@@ -120,14 +112,17 @@ laptop-detect
 lsb-release
 mlocate
 polkit
-xfdesktop
-xfwm4
-xfce4-session
-xfce4-settings
-xfce4-panel
-polkit-gnome
-dex
-exo
+
+#added
+downgrade
+grub-customizer
+inxi
+neofetch
+tlp
+powertop
+docker
+intel-undervolt
+
 
 ###xorg
 xorg-server
@@ -254,6 +249,13 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 arcod-calamares-config-git
+xfdesktop
+xfwm4
+xfce4-session
+xfce4-settings
+xfce4-panel
+dex
+exo
 
 
 ###########################################################################
@@ -278,6 +280,7 @@ xcursor-breeze
 geany
 light
 nomacs
+polkit-gnome
 
 
 
