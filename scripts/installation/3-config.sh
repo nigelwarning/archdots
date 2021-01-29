@@ -34,7 +34,6 @@ mkdir .local
 cd .local
 mkdir share
 cd share
-mkdir kservices5
 ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
 cd
@@ -51,7 +50,6 @@ sudo intel-undervolt apply
 sudo systemctl enable intel-undervolt
 sudo systemctl enable haveged
 sudo systemctl enable bluetooth
-sudo systemctl enable NetworkManager
 sudo systemctl enable lightdm
 
 git config --global user.email "nigelwestland@gmail.com"
