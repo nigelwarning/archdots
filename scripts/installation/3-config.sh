@@ -45,12 +45,14 @@ eos-update-notifier -conf
 sudo nano /etc/intel-undervolt.conf
 sudo intel-undervolt apply
 sudo systemctl enable intel-undervolt
+sudo systemctl enable haveged
+sudo systemctl enable bluetooth
+sudo systemctl enable NetworkManager
 
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 flatpak --user override --filesystem=/home/$USER/.icons/:ro
-
 
 
