@@ -33,10 +33,8 @@ ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
 mkdir .local
 cd .local
 mkdir share
-cd share
-ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
-
 cd
+ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
 sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service

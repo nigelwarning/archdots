@@ -33,7 +33,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 haveged
 hdparm
 intel-ucode
@@ -277,4 +276,5 @@ eos-update-notifier
 yay
 ark
 docker
+flameshot
 
