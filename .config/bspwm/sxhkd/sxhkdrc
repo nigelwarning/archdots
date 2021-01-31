@@ -25,11 +25,10 @@ super + shift + Return
 super + h
     termite 'htop task manager' -e htop
 
-#Lock
-super + l
-    betterlockscreen -l
-    
- 
+#arcolinux-logout
+super + x
+    arcolinux-logout
+
 #Termite
 super + Return
     termite
