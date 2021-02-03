@@ -264,7 +264,7 @@ xfce4-power-manager
 lxappearance
 xsettingsd
 sddm
-arcolinux-sddm-sugar-candy-git
+sddm-sugar-candy-git
 rofi
 dmenu
 nitrogen

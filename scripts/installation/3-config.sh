@@ -36,7 +36,7 @@ ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
 cd Pictures
 cd wallpapers
-sudo cp test.png /usr/share/sddm/themes/arcolinux-sugar-candy/Backgrounds/
+sudo cp test.png /usr/share/sddm/themes/sugar-candy/Backgrounds/
 
 cd
 
