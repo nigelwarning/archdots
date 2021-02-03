@@ -34,6 +34,12 @@ ln -s ~/archdots/.config/qt5ct ~/.config/qt5ct
 ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
 ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
+cd Pictures
+cd wallpapers
+sudo cp test.png /usr/share/sddm/themes/arcolinux-sugar-candy/Backgrounds/
+
+cd
+
 
 sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service
