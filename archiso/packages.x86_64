@@ -48,8 +48,6 @@ linux-lts-headers
 logrotate
 lsscsi
 lvm2
-man-db
-man-pages
 mc
 mdadm
 memtest86+
@@ -175,6 +173,7 @@ vlc
 discord
 teams
 libreoffice-still
+okular
 
 ###cursors
 
@@ -214,7 +213,7 @@ ark
 ###########################################################################
 #                           ARCOLINUX FOLDER
 ###########################################################################
-arcolinux-grub-theme-vimix-git
+
 arcolinux-keyring
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
@@ -264,7 +263,8 @@ xfce4-notifyd
 xfce4-power-manager
 lxappearance
 xsettingsd
-lightdm
+sddm
+arcolinux-sddm-sugar-candy-git
 rofi
 dmenu
 nitrogen
