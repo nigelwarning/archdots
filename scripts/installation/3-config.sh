@@ -34,13 +34,6 @@ ln -s ~/archdots/.config/qt5ct ~/.config/qt5ct
 ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
 ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
 
-cd Pictures
-cd wallpapers
-sudo cp test.png /usr/share/sddm/themes/sugar-candy/Backgrounds/
-
-cd
-
-
 sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
@@ -57,7 +50,6 @@ git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 flatpak --user override --filesystem=/home/$USER/.icons/:ro
-sudo curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/resources/drirc -o /etc/drirc
 
 
 
