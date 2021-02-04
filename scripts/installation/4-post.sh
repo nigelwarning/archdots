@@ -1,4 +1,6 @@
+eos-update-notifier -conf
 gsettings set org.blueberry use-symbolic-icons false
+VBoxManage setextradata global GUI/SuppressMessages "all"
 
 echo "Fix 3"
 echo "#################"
