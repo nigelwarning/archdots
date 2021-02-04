@@ -1,5 +1,5 @@
 #DE/WM
-yay -S bspwm sxhkd dmenu awesome-terminal-fonts picom sutils-git xtitle-git --needed --noconfirm
+yay -S bspwm sxhkd dmenu nitrogen awesome-terminal-fonts picom sutils-git xtitle-git --needed --noconfirm
 
 #DE Specific
 yay -S rofi polybar lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings termite xfce4-notifyd xfce4-power-manager lxappearance xsettingsd nitrogren kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs dolphin xcursor-breeze geany light nomacs --needed --noconfirm
@@ -14,7 +14,7 @@ yay -S tela-icon-theme-git breeze-icons materia-kde materia-gtk-theme kvantum-th
 yay -S linux-lts linux-lts-headers --needed --noconfirm
 
 #Utilities
-yay -S tuxedo-keyboard tuxedo-control-center meld numlockx gnome-disk-utility youtube-dl snapd snapd-glib flatpak eos-update-notifier ark --needed --noconfirm
+yay -S tuxedo-keyboard tuxedo-control-center meld numlockx gnome-disk-utility docker youtube-dl snapd snapd-glib flatpak eos-update-notifier ark --needed --noconfirm
 
 #Applications
 yay -S google-chrome gparted vlc discord teams libreoffice-still okular --needed --noconfirm

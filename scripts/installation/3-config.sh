@@ -15,6 +15,7 @@ sudo chown -R nigel:nigel nigel
 
 cd
 
+mkdir .local
 mkdir ~/.local/share
 
 rm -rf .bashrc
@@ -33,6 +34,7 @@ ln -s ~/archdots/.config/Kvantum ~/.config/Kvantum
 ln -s ~/archdots/.config/qt5ct ~/.config/qt5ct
 ln -s ~/archdots/.config/mimeapps.list ~/.config/mimeapps.list
 ln -s ~/archdots/.local/kservices5 ~/.local/share/kservices5
+sudo cp ~/archdots/environment /etc/environment
 
 
 sudo systemctl enable NetworkManager
