@@ -1,34 +1,20 @@
-#DE/WM
-yay -S bspwm sxhkd dmenu nitrogen awesome-terminal-fonts picom sutils-git xtitle-git --needed --noconfirm
-
-#DE Specific
-yay -S rofi polybar lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings termite xfce4-notifyd xfce4-power-manager lxappearance xsettingsd nitrogren kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs dolphin xcursor-breeze geany light nomacs polkit-gnome --needed --noconfirm
-
-#Fonts
-yay -S noto-fonts noto-fonts-emoj ttf-dejavu ttf-font-awesome ttf-ms-fonts --needed --noconfirm
-
-#Theming
-yay -S tela-icon-theme-git breeze-icons materia-kde materia-gtk-theme kvantum-theme-materia --needed --noconfirm
-
-#System
+#Linux
 yay -S linux-lts linux-lts-headers --needed --noconfirm
 
-#Utilities
-yay -S tuxedo-keyboard tuxedo-control-center meld numlockx gnome-disk-utility docker youtube-dl snapd snapd-glib flatpak eos-update-notifier ark flameshot --needed --noconfirm
+#DE/WM
+yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs termite dolphin xcursor-breeze geany light nomacs --needed --noconfirm
 
-#Applications
+#Display Manager
+yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --needed --noconfirm
+
+#Utilities
+yay -S gnome-disk-utility meld youtube-dl snapd snapd-glib flatpak eos-update-notifier yay-bin ark docker flameshot intel-undervolt libva-intel-driver unrar unzip powertop tlp htop --needed --noconfirm
+
+# Applications
 yay -S google-chrome gparted vlc discord teams libreoffice-still okular --needed --noconfirm
 
+#Themes
+yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git sardi-icons surfn-icons-git breeze-icons --needed --noconfirm
+
 #AUR
-yay -S opensubtitles-uploader selectdefaultapplication-git --needed --noconfirm
-
-#Virtualbox
-sudo pacman -S --needed --noconfirm virtualbox-host-modules-arch  virtualbox xf86-video-vmware
-
-
-
-
-
-
-
-
+yay -S tuxedo-keyboard tuxedo-control-center shadow-tech  selectdefaultapplication-git --needed --noconfirm
