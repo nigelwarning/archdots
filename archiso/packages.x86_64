@@ -106,6 +106,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+python-psutil
 
 
 # everything above comes from archiso releng folder
