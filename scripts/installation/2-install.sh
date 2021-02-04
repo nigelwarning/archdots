@@ -1,8 +1,8 @@
 #DE/WM
-yay -S bspwm sxhkd dmenu awesome-terminal-fonts picom sutils-git xtitle-git -needed --noconfirm
+yay -S bspwm sxhkd dmenu awesome-terminal-fonts picom sutils-git xtitle-git --needed --noconfirm
 
 #DE Specific
-Yay -S rofi polybar lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings termite xfce4-notifyd xfce4-power-manager lxappearance xsettingsd nitrogren kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs dolphin xcursor-breeze geany light nomacs --needed --noconfirm
+yay -S rofi polybar lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings termite xfce4-notifyd xfce4-power-manager lxappearance xsettingsd nitrogren kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs dolphin xcursor-breeze geany light nomacs --needed --noconfirm
 
 #Fonts
 yay -S noto-fonts noto-fonts-emoj ttf-dejavu ttf-font-awesome ttf-ms-fonts --needed --noconfirm
