@@ -20,6 +20,7 @@ sudo rm -rf bspwm polybar
 cd
 sudo rm -rf .face
 
+ln -s ~/archdots/bash/.bashrc-personal ~/.bashrc-personal
 ln -s ~/archdots/.face ~/.face
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 ln -s ~/archdots/.config/bspwm ~/.config/bspwm

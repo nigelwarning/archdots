@@ -18,3 +18,6 @@ yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git s
 
 #AUR
 yay -S tuxedo-keyboard tuxedo-control-center shadow-tech  selectdefaultapplication-git --needed --noconfirm
+
+#Virtualbox
+sudo pacman -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
