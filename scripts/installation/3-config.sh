@@ -15,7 +15,7 @@ sudo chown -R nigel:nigel nigel
 
 cd
 cd .config
-sudo rm -rf bspwm polybar
+sudo rm -rf bspwm polybar mimeapps.list
 
 cd
 sudo rm -rf .face
@@ -53,7 +53,3 @@ git config --global user.name "nigelwarning"
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 flatpak --user override --filesystem=/home/$USER/.icons/:ro
 sudo curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/resources/drirc -o /etc/drirc
-
-
-
-
