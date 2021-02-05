@@ -24,6 +24,7 @@ ln -s ~/archdots/bash/.bashrc-personal ~/.bashrc-personal
 ln -s ~/archdots/.face ~/.face
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 ln -s ~/archdots/.config/bspwm ~/.config/bspwm
+ln -s ~/archdots/.icons ~/.icons
 ln -s ~/archdots/.config/polybar ~/.config/polybar
 ln -s ~/archdots/.config/termite ~/.config/termite
 ln -s ~/archdots/.config/rofi ~/.config/rofi
