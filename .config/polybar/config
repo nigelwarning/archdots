@@ -99,9 +99,9 @@ font-1 = "FontAwesome:size=13;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = bspwm xwindow 
-modules-center = date 
-modules-right = pavolume battery backlight-acpi temperature2 
+modules-left = bspwm xwindow
+modules-center = date
+modules-right = pavolume battery backlight-acpi temperature2
 tray-detached = false
 tray-offset-x = 0
 tray-offset-y = 0
@@ -159,10 +159,10 @@ label-occupied-foreground = #ffffff
 label-urgent = %icon%
 label-urgent-padding = 2
 
-label-empty = 
-label-empty-foreground = 
-label-empty-padding = 
-label-empty-background = 
+label-empty =
+label-empty-foreground =
+label-empty-padding =
+label-empty-background =
 label-monocle = "  "
 label-monocle-foreground = ${colors.foreground}
 label-tiled = "  "
@@ -470,5 +470,3 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
 ###############################################################################
-
-

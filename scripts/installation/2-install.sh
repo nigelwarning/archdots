@@ -17,7 +17,7 @@ yay -S google-chrome gparted vlc discord teams libreoffice-still okular --needed
 yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git sardi-icons surfn-icons-git breeze-icons --needed --noconfirm
 
 #AUR
-yay -S tuxedo-keyboard tuxedo-control-center shadow-tech  selectdefaultapplication-git --needed --noconfirm
+yay -S tuxedo-keyboard tuxedo-control-center selectdefaultapplication-git --needed --noconfirm
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware

@@ -58,5 +58,3 @@ bspc rule -a Oblogout state=floating
 #Tiled applications
 bspc rule -a Gnome-disks state=tiled
 bspc rule -a Xfce4-settings-manager state=tiled
-
-
