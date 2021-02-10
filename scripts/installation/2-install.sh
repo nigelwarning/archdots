@@ -2,7 +2,7 @@
 yay -S linux-lts linux-lts-headers --needed --noconfirm
 
 #DE/WM
-yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs termite dolphin xcursor-breeze atom light nomacs --needed --noconfirm
+yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs termite dolphin xcursor-breeze geany light nomacs --needed --noconfirm
 
 #Display Manager
 yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --needed --noconfirm
