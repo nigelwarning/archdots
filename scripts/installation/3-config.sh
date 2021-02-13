@@ -41,6 +41,7 @@ sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
 sudo systemctl enable snapd.socket
 sudo systemctl enable bluetooth
+sudo systemctl enable docker
 eos-update-notifier -init
 sudo nano /etc/intel-undervolt.conf
 sudo intel-undervolt apply
