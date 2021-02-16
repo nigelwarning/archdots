@@ -20,6 +20,6 @@ yay -S tela-icon-theme-git --needed --noconfirm
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak plasma5-applets-virtual-desktop-bar-git
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak plasma5-applets-virtual-desktop-bar-git google-chrome
 
 
