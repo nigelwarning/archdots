@@ -1,9 +1,0 @@
-[arch4edu]
-Server = https://arch4edu.keybase.pub/$arch
-
-[chaotic-aur]
-Server = http://chaotic.bangl.de/$repo/$arch
-
-[endeavouros]
-Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
-
