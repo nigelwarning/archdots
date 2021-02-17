@@ -20,7 +20,7 @@ yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git s
 yay -S tuxedo-keyboard tuxedo-control-center selectdefaultapplication-git --needed --noconfirm
 
 #Virtualbox
-yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
+yay -S --needed --noconfirm virtualbox-host-dkms virtualbox xf86-video-vmware
 
 #Packages
-yay -S noto-fonts-emoji --needed --noconfirm
+yay -S noto-fonts-emoji ttf-ms-fonts --needed --noconfirm
