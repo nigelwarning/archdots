@@ -1,3 +1,4 @@
+eos-update-notifier -conf
 echo "################################################################"
 echo "##      Removing all the messages virtualbox produces         ##"
 echo "################################################################"
