@@ -1,8 +1,0 @@
-[Desktop Entry]
-Charset=
-Hidden=false
-Keys=mm
-Name=Moviemeter
-Query=https://www.moviemeter.nl/site/search?q=\\{@}
-Type=Service
-X-KDE-ServiceTypes=SearchProvider

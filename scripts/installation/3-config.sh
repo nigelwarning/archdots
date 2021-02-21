@@ -20,6 +20,11 @@ sudo rm -rf .bashrc
 ln -s ~/archdots/bash/.bashrc ~/.bashrc
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 
+cd Pictures
+mkdir Screenshots
+
+cd
+
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
 sudo systemctl enable snapd.socket

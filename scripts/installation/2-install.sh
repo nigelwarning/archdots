@@ -4,11 +4,11 @@ yay -S linux-lts linux-lts-headers libva-intel-driver intel-undervolt --needed -
 
 #Applications
 
-yay -S docker discord --needed --noconfirm
+yay -S docker discord vlc --needed --noconfirm
 
 #KDE Apps
 
-yay -S kate konsole ffmpegthumbs --needed --noconfirm
+yay -S kate konsole ffmpegthumbs kdialog --needed --noconfirm
 
 #Utilities
 
