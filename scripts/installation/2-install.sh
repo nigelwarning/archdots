@@ -12,7 +12,7 @@ yay -S kate konsole ffmpegthumbs kdialog --needed --noconfirm
 
 #Utilities
 
-yay -S noto-fonts-emoji ttf-ms-fonts appimagelauncher kvantum-qt5 --needed --noconfirm
+yay -S noto-fonts-emoji ttf-ms-fonts appimagelauncher kvantum-qt5 bluez-utils pulseaudio-modules-bt --needed --noconfirm
 
 #Themes
 
