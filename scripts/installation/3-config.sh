@@ -39,4 +39,3 @@ git config --global user.name "nigelwarning"
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 
 
-

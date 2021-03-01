@@ -20,5 +20,8 @@ yay -S materia-kde materia-gtk-theme kvantum-theme-materia papirus-icon-theme --
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome plasma5-applets-virtual-desktop-bar-git
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome plasma5-applets-virtual-desktop-bar
 
+#Virtualbox
+
+yay -S virtualbox virtualbox-host-dkms
