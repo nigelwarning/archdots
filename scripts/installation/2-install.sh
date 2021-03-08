@@ -1,27 +1,26 @@
-#Basic
+#Linux
+yay -S linux-lts linux-lts-headers --needed --noconfirm
 
-yay -S linux-lts linux-lts-headers libva-intel-driver intel-undervolt --needed --noconfirm
+#DE/WM
+yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs termite dolphin xcursor-breeze geany light nomacs --needed --noconfirm
 
-#Applications
-
-yay -S docker discord vlc --needed --noconfirm
-
-#KDE Apps
-
-yay -S kate konsole ffmpegthumbs kdialog --needed --noconfirm
+#Display Manager
+yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --needed --noconfirm
 
 #Utilities
+yay -S gnome-disk-utility meld youtube-dl snapd snapd-glib flatpak eos-update-notifier yay-bin ark docker flameshot intel-undervolt libva-intel-driver unrar unzip powertop tlp htop --needed --noconfirm
 
-yay -S noto-fonts-emoji ttf-ms-fonts appimagelauncher kvantum-qt5 bluez-utils pulseaudio-modules-bt xsettingsd --needed --noconfirm
+# Applications
+yay -S google-chrome gparted vlc discord teams libreoffice-still okular --needed --noconfirm
 
 #Themes
-
-yay -S qogir-gtk-theme-git qogir-kde-theme-git tela-icon-theme-git --needed --noconfirm
+yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git sardi-icons surfn-icons-git breeze-icons --needed --noconfirm
 
 #AUR
-
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome plasma5-applets-virtual-desktop-bar
+yay -S tuxedo-keyboard tuxedo-control-center selectdefaultapplication-git --needed --noconfirm
 
 #Virtualbox
+yay -S --needed --noconfirm virtualbox-host-dkms virtualbox xf86-video-vmware
 
-yay -S virtualbox virtualbox-host-dkms
+#Packages
+yay -S noto-fonts-emoji ttf-ms-fonts --needed --noconfirm
