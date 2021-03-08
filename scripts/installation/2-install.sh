@@ -2,7 +2,7 @@
 yay -S linux-lts linux-lts-headers --needed --noconfirm
 
 #DE/WM
-yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring ffmpegthumbs termite dolphin xcursor-breeze geany light nomacs --needed --noconfirm
+yay -S xfce4-notifyd xfce4-power-manager lxappearance xsettingsd rofi dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring termite thunar xcursor-breeze geany light nomacs --needed --noconfirm
 
 #Display Manager
 yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --needed --noconfirm
@@ -17,7 +17,7 @@ yay -S google-chrome gparted vlc discord teams libreoffice-still okular --needed
 yay -S materia-kde materia-gtk-theme kvantum-theme-materia tela-icon-theme-git sardi-icons surfn-icons-git breeze-icons --needed --noconfirm
 
 #AUR
-yay -S tuxedo-keyboard tuxedo-control-center selectdefaultapplication-git --needed --noconfirm
+yay -S tuxedo-keyboard tuxedo-control-center shadow-tech opensubtitles-uploader selectdefaultapplication-git --needed --noconfirm
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-dkms virtualbox xf86-video-vmware
