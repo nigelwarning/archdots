@@ -16,7 +16,7 @@ yay -S noto-fonts-emoji ttf-ms-fonts appimagelauncher kvantum-qt5 bluez-utils pu
 
 #Themes
 
-yay -S materia-kde materia-gtk-theme kvantum-theme-materia papirus-icon-theme --needed --noconfirm
+yay -S qogir-gtk-theme-git qogir-kde-theme-git tela-icon-theme-git --needed --noconfirm
 
 #AUR
 
