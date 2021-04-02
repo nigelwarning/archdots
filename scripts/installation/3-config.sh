@@ -1,3 +1,5 @@
+sudo groupadd nigel
+sudo gpasswd -a nigel nigel
 sudo usermod -aG docker nigel
 
 cd /opt
@@ -20,15 +22,10 @@ sudo rm -rf .bashrc
 ln -s ~/archdots/bash/.bashrc ~/.bashrc
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 
-cd Pictures
-mkdir Screenshots
-
-cd
-
+sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
 sudo systemctl enable snapd.socket
-sudo systemctl enable bluetooth
 eos-update-notifier -init
 eos-update-notifier -conf
 sudo nano /etc/intel-undervolt.conf
@@ -39,5 +36,7 @@ git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+
+
 
 

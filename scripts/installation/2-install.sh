@@ -1,27 +1,25 @@
 #Basic
 
-yay -S linux-lts linux-lts-headers libva-intel-driver intel-undervolt --needed --noconfirm
+yay -S linux-lts linux-lts-headers libva-intel-driver tlp intel-undervolt
 
 #Applications
 
-yay -S docker discord vlc --needed --noconfirm
+yay -S docker discord grub-customizer
 
 #KDE Apps
 
-yay -S kate konsole ffmpegthumbs kdialog --needed --noconfirm
+yay -S gwenview kio-gdrive ffmpegthumbs
 
 #Utilities
 
-yay -S noto-fonts-emoji ttf-ms-fonts appimagelauncher kvantum-qt5 bluez-utils pulseaudio-modules-bt xsettingsd --needed --noconfirm
+yay -S noto-fonts-emoji appimagelauncher htop reflector eos-update-notifier kvantum-qt5
 
 #Themes
 
-yay -S papirus-icon-theme --needed --noconfirm
+yay -S papirus-icon-theme materia-kde materia-gtk-theme kvantum-theme-materia
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome plasma5-applets-virtual-desktop-bar-git
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak plasma5-applets-virtual-desktop-bar-git google-chrome
 
-#Virtualbox
 
-yay -S virtualbox virtualbox-host-dkms
