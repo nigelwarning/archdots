@@ -6,9 +6,9 @@ yay -S linux-lts linux-lts-headers libva-intel-driver tlp intel-undervolt
 
 yay -S docker discord grub-customizer
 
-#KDE Apps
+#GNOME Apps
 
-yay -S gwenview kio-gdrive ffmpegthumbs
+yay -S chrome-gnome-shell libappindicator-gtk3
 
 #Utilities
 
@@ -16,10 +16,10 @@ yay -S noto-fonts-emoji appimagelauncher htop reflector eos-update-notifier kvan
 
 #Themes
 
-yay -S papirus-icon-theme materia-kde materia-gtk-theme kvantum-theme-materia
+yay -S tela-icon-theme-git
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak plasma5-applets-virtual-desktop-bar-git google-chrome
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak  google-chrome
 
 
