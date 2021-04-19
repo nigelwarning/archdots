@@ -16,10 +16,12 @@ yay -S noto-fonts-emoji appimagelauncher htop reflector eos-update-notifier kvan
 
 #Themes
 
-yay -S papirus-icon-theme materia-kde materia-gtk-theme kvantum-theme-materia
-
+yay -S tela-icon-theme-git
 #AUR
 
 yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak plasma5-applets-virtual-desktop-bar-git google-chrome
+
+#Virtualbox
+yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
 
 
