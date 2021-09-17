@@ -1,7 +1,5 @@
-yay -S arch4edu-keyring 
-yay chaotic-keyring
-
-sudo pacman-key --keyserver hkp://pool.sks-keyservers.net -r 003DB8B0CB23504F
-sudo pacman-key --lsign 003DB8B0CB23504F
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
 
 yay

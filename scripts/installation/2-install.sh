@@ -1,6 +1,6 @@
 #Basic
 
-yay -S linux-lts linux-lts-headers libva-intel-driver tlp intel-undervolt
+yay -S linux-lts linux-lts-headers intel-media-driver tlp
 
 #Applications
 
@@ -8,15 +8,15 @@ yay -S docker discord grub-customizer
 
 #KDE Apps
 
-yay -S gwenview kio-gdrive ffmpegthumbs scrot
+yay -S gwenview kio-gdrive ffmpegthumbs
 
 #Utilities
 
-yay -S noto-fonts-emoji appimagelauncher htop reflector eos-update-notifier
+yay -S noto-fonts-emoji appimagelauncher htop reflector
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome konsave pulseaudio-modules-bt
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
