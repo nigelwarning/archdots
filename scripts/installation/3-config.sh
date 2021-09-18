@@ -3,7 +3,7 @@ sudo gpasswd -a nigel nigel
 sudo usermod -aG docker nigel
 
 cd /opt
-sudo mkdir sonarr radarr sabnzbd nzbhydra2 bazarr
+sudo mkdir sonarr radarr sabnzbd prowlarr bazarr
 cd
 sudo mkdir usenet
 cd Videos
