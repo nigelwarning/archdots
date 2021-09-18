@@ -20,6 +20,7 @@ cd
 sudo rm -rf .bashrc 
 
 ln -s ~/archdots/bash/.bashrc ~/.bashrc
+ln -s ~/archdots/chrome-flags.conf ~/.config/chrome-flags.conf
 ln -s ~/archdots/wallpapers ~/Pictures/wallpapers
 
 sudo systemctl enable tlp

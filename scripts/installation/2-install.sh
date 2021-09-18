@@ -12,7 +12,7 @@ yay -S gwenview kio-gdrive ffmpegthumbs
 
 #Utilities
 
-yay -S noto-fonts-emoji appimagelauncher htop reflector kvantum-theme-materia materia-gtk-theme materia-kde papirus-icon-theme flameshot
+yay -S noto-fonts-emoji appimagelauncher htop reflector layan-kde-git layan-gtk-theme-git kvantum-theme-layan-git tela-circle-icon-theme-git flameshot
 
 #AUR
 
