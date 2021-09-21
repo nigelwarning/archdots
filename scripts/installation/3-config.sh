@@ -32,7 +32,6 @@ git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
-echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
 
 
 
