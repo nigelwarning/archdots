@@ -1,6 +1,6 @@
 #Basic
 
-yay -S linux-lts linux-lts-headers intel-media-driver geany dmenu ranger
+yay -S linux-lts linux-lts-headers intel-media-driver geany dmenu kitty
 
 #Applications
 
@@ -9,7 +9,7 @@ yay -S docker discord grub-customizer xcursor-breeze
 
 #Utilities
 
-yay -S noto-fonts-emoji appimagelauncher flameshot papirus-icon-theme materia-gtk-theme kvantum-theme-materia
+yay -S noto-fonts-emoji appimagelauncher flameshot papirus-icon-theme materia-gtk-theme kvantum-theme-materia bluez bluez-utils dconf-editor
 
 #AUR
 

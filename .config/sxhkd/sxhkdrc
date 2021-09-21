@@ -13,11 +13,19 @@ super + space
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	kitty
 
 # filemanager
 super + Return + shift
 	thunar
+
+# discord
+super + d
+	discord
+	
+# google-chrome
+super + b
+	google-chrome-stable --no-default-browser-check
 
 
 

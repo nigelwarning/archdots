@@ -34,10 +34,14 @@ ln -s ~/archdots/.config/nitrogen ~/.config/nitrogen
 ln -s ~/archdots/.config/xsettingsd ~/.config/xsettingsd
 ln -s ~/archdots/.config/Kvantum ~/.config/Kvantum
 ln -s ~/archdots/.config/qt5ct ~/.config/qt5ct
+ln -s ~/archdots/.config/dunst ~/.config/dunst
+
 
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
 sudo systemctl enable snapd.socket
+sudo systemctl enable bluetooth
+sudo nano /etc/bluetooth/main.conf
 
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
