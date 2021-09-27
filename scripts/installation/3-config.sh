@@ -15,7 +15,7 @@ sudo chown -R nigel:nigel nigel
 
 cd
 cd .config
-sudo rm -rf bspwm polybar mimeapps.list
+sudo rm -rf mimeapps.list
 
 cd
 sudo rm -rf .face

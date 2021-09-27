@@ -8,7 +8,7 @@ yay -S linux-lts linux-lts-headers
 yay -S alsa-utils alsa-plugins alsa-lib alsa-firmware gstreamer gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly tumbler ffmpegthumbnailer bluez bluez-libs bluez-utils blueberry
 
 #DE/WM
-yay -S dunst lxappearance xsettingsd dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring thunar thunar-volman thunar-archive-plugin xcursor-breeze geany light nomacs kitty pulseaudio 
+yay -S dunst lxappearance xsettingsd dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring thunar thunar-archive-plugin xcursor-breeze geany light nomacs kitty pulseaudio 
 
 #Display Manager
 yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings

@@ -24,7 +24,7 @@ super + shift + Return
 	
 #Terminal
 super + h
-    kitty 'htop task manager' -e htop
+    kitty htop
 
 #arcolinux-logout
 super + x
@@ -47,7 +47,7 @@ super + d
     discord
 
 #subsync
-ctrl + alt + s
+super + shift + s
     subsync
 
 #vlc
@@ -72,20 +72,14 @@ Print
 #################################################################
 
 #Raises volume
-super + F6
-    amixer set Master 5%+
 XF86AudioRaiseVolume
-    amixer set Master 5%+
+    amixer set Master 1%+
 
 #Lowers volume
 XF86AudioLowerVolume
-    amixer set Master 5%-
-super + F5
-    amixer set Master 5%-
+    amixer set Master 1%-
 
 #Mute
-super + F3
-    amixer -D pulse set Master 1+ toggle
 XF86AudioMute
     amixer -D pulse set Master 1+ toggle
 
@@ -111,23 +105,15 @@ super + F8
 super + q
 	bspc node -c
 
-super + c
-	bspc node -c
-
-super + shift + q
-	bspc node -c
 
 #Reload bspwm
-super + shift + r
+super + alt + r
 	~/.config/bspwm/bspwmrc
 
 #Reload sxhkd:
-super + shift + s
+super + alt + s
 	pkill -USR1 -x sxhkd
 
-#Picom Toggle
-super + shift + o
-    ~/.config/bspwm/scripts/picom-toggle.sh
 
 
 #################################################################
