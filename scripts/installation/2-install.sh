@@ -4,19 +4,19 @@ yay -S linux-lts linux-lts-headers intel-media-driver tlp
 
 #Applications
 
-yay -S docker discord grub-customizer
+yay -S discord grub-customizer
 
 #KDE Apps
 
-yay -S gwenview kio-gdrive ffmpegthumbs
+yay -S gwenview ffmpegthumbs
 
 #Utilities
 
-yay -S noto-fonts-emoji appimagelauncher htop reflector flameshot
+yay -S noto-fonts-emoji htop reflector flameshot
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome konsave pulseaudio-modules-bt
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome konsave
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
