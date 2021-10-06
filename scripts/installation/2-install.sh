@@ -1,29 +1,24 @@
-#Window Manager
-yay -S bspwm sxhkd picom arcolinux-config-all-desktops-git arcolinux-dconf-all-desktops-git arcolinux-logout-git arcolinux-tweak-tool-git awesome-terminal-fonts dmenu polybar polkit-gnome
+#Basic
 
-#Linux
-yay -S linux-lts linux-lts-headers 
+yay -S linux-lts linux-lts-headers intel-media-driver tlp
 
-#Drivers
-yay -S alsa-utils alsa-plugins alsa-lib alsa-firmware gstreamer gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly tumbler ffmpegthumbnailer bluez bluez-libs bluez-utils blueberry
+#Applications
 
-#DE/WM
-yay -S dunst lxappearance xsettingsd dmenu nitrogen kvantum-qt5 qt5ct gnome-keyring thunar thunar-archive-plugin xcursor-breeze geany light nomacs kitty pulseaudio 
+yay -S docker discord grub-customizer
 
-#Display Manager
-yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+#KDE Apps
+
+yay -S gwenview kio-gdrive ffmpegthumbs
 
 #Utilities
-yay -S gnome-disk-utility snapd snapd-glib flatpak docker flameshot intel-media-driver xf86-video-intel unrar unzip powertop tlp htop
 
-# Applications
-yay -S google-chrome vlc discord
-
-#Themes
-yay -S materia-kde materia-gtk-theme kvantum-theme-materia papirus-icon-theme 
+yay -S noto-fonts-emoji appimagelauncher htop reflector flameshot
 
 #AUR
-yay -S tuxedo-keyboard tuxedo-control-center shadow-tech opensubtitles-uploader selectdefaultapplication-git pulseaudio-modules-bt
 
-#Fonts
-yay -S noto-fonts-emoji ttf-ms-fonts
+yay -S tuxedo-keyboard tuxedo-control-center opensubtitles-uploader snapd snapd-glib flatpak google-chrome konsave pulseaudio-modules-bt
+
+#Virtualbox
+yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
+
+
