@@ -30,6 +30,7 @@ ln -s ~/archdots/.config/gtk-3.0 ~/.config/gtk-3.0
 ln -s ~/archdots/.config/gtk-2.0 ~/.config/gtk-2.0
 ln -s ~/archdots/.config/arcolinux-betterlockscreen ~/.config/arcolinux-betterlockscreen
 ln -s ~/archdots/.config/dunst ~/.config/dunst
+ln -s ~/archdots/.config/volumeicon ~/.config/volumeicon
 
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"

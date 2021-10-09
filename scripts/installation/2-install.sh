@@ -8,7 +8,7 @@ yay -S discord grub-customizer
 
 #i3 Apps
 
-yay -S pavolume-git pcmanfm-gtk3 papirus-icon-theme geany materia-gtk-theme kvantum-theme-materia arcolinux-logout-git arcolinux-betterlockscreen-git 
+yay -S volumeicon xorg-xbacklight pcmanfm-gtk3 papirus-icon-theme geany materia-gtk-theme kvantum-theme-materia arcolinux-logout-git arcolinux-betterlockscreen-git 
 
 #Utilities
 
