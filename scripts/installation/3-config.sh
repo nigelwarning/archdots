@@ -13,11 +13,18 @@ sudo systemctl enable tlp
 sudo systemctl enable --now apparmor.service
 sudo systemctl enable --now snapd.apparmor.service
 sudo systemctl enable snapd.socket
+eos-update-notifier -init
+eos-update-notifier -conf
 
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
 flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+
+cd
+cd ..
+sudo chmod 777 -R nigel
+sudo chown -R nigel:nigel nigel
 
 
 

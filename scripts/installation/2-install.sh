@@ -1,10 +1,10 @@
 #Basic
 
-yay -S linux-lts linux-lts-headers intel-media-driver tlp
+yay -S intel-media-driver tlp
 
 #Applications
 
-yay -S discord grub-customizer
+yay -S discord grub-customizer reflector-simple eos-update-notifier
 
 #KDE Apps
 

@@ -1,3 +1,7 @@
+[endeavouros]
+SigLevel = PackageRequired
+Include = /etc/pacman.d/endeavouros-mirrorlist
+
 [chaotic-aur]
 Server = http://chaotic.bangl.de/$repo/$arch
 
