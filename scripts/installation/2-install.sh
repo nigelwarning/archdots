@@ -1,22 +1,24 @@
 #Basic
 
-yay -S intel-media-driver
+yay -S linux-lts linux-lts-headers intel-media-driver tlp
 
 #Applications
 
 yay -S discord grub-customizer
 
-#i3 Apps
+#KDE Apps
 
-yay -S volumeicon xorg-xbacklight pcmanfm-gtk3 papirus-icon-theme geany materia-gtk-theme kvantum-theme-materia arcolinux-logout-git arcolinux-betterlockscreen-git 
+yay -S gwenview ffmpegthumbs
 
 #Utilities
 
-yay -S noto-fonts-emoji htop flameshot
+yay -S noto-fonts-emoji htop reflector flameshot
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak google-chrome
+yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak google-chrome konsave
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
+
+
