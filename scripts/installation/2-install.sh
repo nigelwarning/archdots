@@ -12,7 +12,7 @@ yay -S gwenview ffmpegthumbs okular ark
 
 #Utilities
 
-yay -S noto-fonts-emoji htop reflector flameshot
+yay -S noto-fonts-emoji htop flameshot
 
 #AUR
 
