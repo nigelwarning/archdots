@@ -1,6 +1,6 @@
 #Basic
 
-yay -S intel-media-driver tlp
+yay -S intel-media-driver tlp docker
 
 #Applications
 
