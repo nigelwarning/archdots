@@ -6,3 +6,5 @@ sudo pacman-key --keyserver keyserver.ubuntu.com -r 003DB8B0CB23504F
 sudo pacman-key --lsign 003DB8B0CB23504F
 
 yay
+
+sudo pacmanc -R arcolinux-spices-git
