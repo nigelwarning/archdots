@@ -1,6 +1,6 @@
 #Basic
 
-yay -S intel-media-driver tlp
+yay -S intel-media-driver tlp docker
 
 #Applications
 
@@ -12,11 +12,11 @@ yay -S gwenview ffmpegthumbs okular ark
 
 #Utilities
 
-yay -S noto-fonts-emoji htop flameshot materia-kde materia-gtk-theme kvantum-theme-materia
+yay -S noto-fonts-emoji htop flameshot
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak google-chrome konsave jackett kodi libreoffice-still
+yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak google-chrome konsave libreoffice-still
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
