@@ -1,6 +1,6 @@
 #Basic
 
-yay -S intel-media-driver tlp docker
+yay -S intel-media-driver tlp 
 
 #Applications
 
@@ -8,15 +8,15 @@ yay -S discord grub-customizer reflector-simple eos-update-notifier
 
 #KDE Apps
 
-yay -S gwenview ffmpegthumbs okular ark
+yay -S xcursor-breeze
 
 #Utilities
 
-yay -S noto-fonts-emoji htop flameshot
+yay -S noto-fonts-emoji htop
 
 #AUR
 
-yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak google-chrome konsave libreoffice-still
+yay -S tuxedo-keyboard tuxedo-control-center snapd snapd-glib flatpak firefox libreoffice-still
 
 #Virtualbox
 yay -S --needed --noconfirm virtualbox-host-modules-arch virtualbox xf86-video-vmware
