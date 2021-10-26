@@ -25,9 +25,6 @@ eos-update-notifier -conf
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
-sudo nano /etc/bluetooth/main.conf
-echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
-
 
 
 
