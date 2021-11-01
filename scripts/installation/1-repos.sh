@@ -7,4 +7,4 @@ sudo pacman-key --lsign 003DB8B0CB23504F
 
 yay
 
-sudo pacmanc -R arcolinux-spices-git
+sudo pacman -R arcolinux-spices-git

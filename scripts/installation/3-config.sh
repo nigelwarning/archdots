@@ -25,6 +25,8 @@ eos-update-notifier -conf
 git config --global user.email "nigelwestland@gmail.com"
 git config --global user.name "nigelwarning"
 
+reboot
+
 
 
 
